@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>100-Days-100-Projects Sudoku Game</title>
+    </head>
+    <body>
+        <div class="wrap">
+        <label for="toggleCandidates">Show candidates </label>
+        <input id="toggleCandidates" class="js-candidate-toggle" type="checkbox"/>
+        New:
+        <button type="button" class="sudokubutton1 js-generate-board-btn--easy">Easy</button>
+        <button type="button" class="sudokubutton2 js-generate-board-btn--medium">Medium</button>
+        <button type="button" class="sudokubutton3 js-generate-board-btn--hard">Hard</button>
+        <button type="button" class="sudokubutton4 js-generate-board-btn--very-hard">Very Hard</button>
+        <div id="sudoku" class="sudoku-board">
+        </div>
+        Solve: <button type="button" class="sudokubutton5 js-solve-step-btn">One Step</button>
+        <button type="button" class="sudokubutton6 js-solve-all-btn">All</button>
+        <br>
+        Clear: <button type="button" class="sudokubutton7 js-clear-board-btn">Board</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
